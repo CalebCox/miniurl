@@ -1,0 +1,17 @@
+{
+  "name": "miniurl",
+  "version": "1.0.0",
+  "description": "URL Shortener for FCCs Back-End Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Caleb Cox",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.0",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.13"
+  }
+}
