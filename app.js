@@ -2,6 +2,8 @@
 var express = require('express'),
     ejs = require('ejs'),
     app = express(),
+    validUrl = require('valid-url'),
+    shortId = require('shortid'),
     mongoose = require('mongoose'),
     url = process.env.MONGOLAB_URI;
 
@@ -35,7 +37,17 @@ app.get("/", function(req, res) {
     res.render("index");
 });
 
+app.get("/new/:url(*)", function(req, res) {
+    var userInput = req.params.url;
+    res.send(userInput);
 
+    
+
+});
+
+app.get("/:short", function (req, res) {
+
+});
 
 app.listen(3000, function() {
     console.log("Server listening on port 3000...");
