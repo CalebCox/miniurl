@@ -1,3 +1,13 @@
+/* 
+   Attempted to get this working with Mongoose and it failed originally..
+   After using Michael Lefkowitz tutorial for reference and assistance
+   I have this working locally but it appears to have an issue when on
+   Glitch.me @ four-runner.glitch.me.
+
+   Thanks to Michale Lefkowitz for this tutorial here: 
+   http://lefkowitz.me/thoughts/2016/05/05/men-stack-building-a-url-shortener-with-mongodb-express-and-node-js/
+*/
+
 // setup app and requires
 const express = require('express'),
     ejs = require('ejs'),
